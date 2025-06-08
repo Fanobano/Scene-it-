@@ -12,7 +12,7 @@ body {
 
 .gamemode-page-background {
     background-color: #F06A4E; /* Orange-red base */
-    background-image: url('/assets/ori_3459616_c8038af6073ff05b789fbf7c4e5fab05a34eae81_popcorn-seamless-vector-patterns.jpg'); /* Ensure this path is correct */
+    background-image: url('/Assets/ori_3459616_c8038af6073ff05b789fbf7c4e5fab05a34eae81_popcorn-seamless-vector-patterns.jpg'); /* Ensure this path is correct */
     background-repeat: repeat;
     flex-grow: 1; /* Allow body to grow for sticky footer */
 }
