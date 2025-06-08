@@ -29,14 +29,10 @@ console.log('questions:', localStorage.getItem('questions'));
     const listContainer = document.createElement('div');
     listContainer.classList.add('correct-list');
 
-    const title = document.createElement('h2');
-    title.textContent = "Questions you got right:";
-    listContainer.appendChild(title);
-
     const ul = document.createElement('ul');
     correctQuestions.forEach(item => {
       const li = document.createElement('li');
-      li.textContent = `${item.question} — Correct answer: ${item.correctAnswer}`;
+      li.textContent = `${item.question} Correct answer: ${item.correctAnswer}`;
       ul.appendChild(li);
     });
 
@@ -56,6 +52,7 @@ function restartQuiz() {
 
 document.addEventListener('click', () => {
   const music = document.getElementById('background-music');
+  music.volume = 0.3;
   if (music.muted) {
     music.muted = false;
     music.play();

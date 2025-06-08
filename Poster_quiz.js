@@ -27,7 +27,7 @@ const questions = [
     question: "Which movie is this poster from?",
     options: ["Frozen", "Tangled", "Brave", "Moana"],
     correctIndex: 0,
-    imageUrl: "/Assets/ƒrozen.jpg"
+    imageUrl: "/Assets/frozen.jpg"
   }
 ];
 
