@@ -130,15 +130,9 @@ img {
     color: #ccc;
     font-style: italic;
 }
-.question-content-area img {
-    max-width: 100%;
-    max-height: 350px; /* Max height for images */
-    border-radius: 5px;
-    object-fit: contain; /* Ensure image fits well */
-}
 
 .quote-text {
-    font-size: 1.6em; /* Larger for quotes */
+    font-size: 1.6em; 
     color: white;
     padding: 25px;
     background-color: rgba(0,0,0,0.4); /* Slightly darker for quote box */

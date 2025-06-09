@@ -128,7 +128,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 document.addEventListener('click', () => {
   const music = document.getElementById('background-music');
-  music.volume = 0.3;
+  music.volume = 0.5;
   if (music.muted) {
     music.muted = false;
     music.play();
